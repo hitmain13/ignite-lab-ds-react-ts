@@ -1,0 +1,19 @@
+{
+  "overrides": [
+    {
+      "files": "*.css",
+      "options": { "parser": "css", "printWidth": 200 }
+    },
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.json"],
+      "options": {
+        "semi": false,
+        "trailingComma": "all",
+        "singleQuote": true,
+        "printWidth": 100,
+        "useTabs": false,
+        "tabWidth": 2
+      }
+    }
+  ]
+}
