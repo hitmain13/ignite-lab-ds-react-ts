@@ -11,8 +11,10 @@ module.exports = {
     builder: "@storybook/builder-vite",
   },
   features: {
+    interactionsDebugger: true,
     storyStoreV7: true,
   },
+  staticDirs: ["../public"],
   viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
       config.base = "/ignite-lab-ds-react-ts/";
